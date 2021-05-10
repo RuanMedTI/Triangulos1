@@ -9,28 +9,28 @@ namespace Triangulos1.ConsoleApp
     public class Controlador
     {
         //insert dos valores
-        public int x;
-        public int y;
-        public int z;
+        public int lado1;
+        public int lado2;
+        public int lado3;
 
         //validacao das variaveis com os valores
         public void Calculo()
         {
-            if (x == y && y == z)
+            if (lado1 == lado2 && lado2 == lado3)
             {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Triangulo Equilátero");
                 Console.ResetColor();
             }
 
-            if (x != y || y != z || x != z)
+            if (lado1 != lado2 || lado2 != lado3 || lado1 != lado3)
             {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Triangulo Isóceles");
                 Console.ResetColor();
             }
 
-            else if (x != y || y != z || x != z)
+            else if (lado1 != lado2 || lado2 != lado3 || lado1 != lado3)
             {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Triangulo Escaleno");

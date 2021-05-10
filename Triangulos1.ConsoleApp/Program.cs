@@ -15,9 +15,9 @@ namespace Triangulos1.ConsoleApp
             Console.Write("Triangulo 1.1\n");
             Console.ResetColor();
 
-            controladores.x = 5;
-            controladores.y = 5;
-            controladores.z = 2;
+            controladores.lado1 = 5;
+            controladores.lado2 = 5;
+            controladores.lado3 = 2;
 
             controladores.Calculo();
 
